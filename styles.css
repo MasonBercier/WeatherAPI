@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.input-div{
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.weather-div {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 125px;
+}
+
+.forcast-div {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 125px;
+}
+
+.rain {
+    background-image: url(https://pbs.twimg.com/media/FCZikM2WQA8vbcm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sun {
+    background-image: url(https://i.pinimg.com/736x/27/31/7c/27317ce69a8a85cf3231ca60e49c34c7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cloud {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/009/877/673/non_2x/pixel-art-sky-background-with-clouds-cloudy-blue-sky-for-8bit-game-on-white-background-vector.jpg);
+}

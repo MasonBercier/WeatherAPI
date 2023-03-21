@@ -26,18 +26,19 @@ const getInfo = async (name) => {
     weatherDiv.innerHTML = `
     
     <div class="card" style="width: 18rem;">
-    <ul class="list-group list-group-flush">
-        <li class="list-group-item">${newData.name}</li>
-        <li class="list-group-item">Temperature: ${newData['main']['feels_like']} F</li>
-        <li class="list-group-item">Cloud Cover: ${newData['weather'][0]['description']}</li>
-        <li class="list-group-item">Humidity: ${newData['main']['humidity']}%</li>
-    </ul>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">${newData.name}</li>
+            <li class="list-group-item">Temperature: ${newData['main']['feels_like']} F</li>
+            <li class="list-group-item">Cloud Cover: ${newData['weather'][0]['description']}</li>
+            <li class="list-group-item">Humidity: ${newData['main']['humidity']}%</li>
+        </ul>
+    </div>
     `
     const forcastDiv = document.querySelector('.forcast-div')
     forcastDiv.innerHTML = `
     
-    </div>
-    <table class="table">
+    
+    <table class="table table-dark">
     <thead>
         <tr>
         <th scope="col">Day</th>
